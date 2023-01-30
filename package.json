@@ -1,0 +1,19 @@
+{
+  "name": "avance-portfolio-codespaces",
+  "version": "1.0.0",
+  "description": "Avance, ya que por alguna razon, no me deja correr el GULP en medio de Codespaces, quiero avanzar el proyecto por este medio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreDeiv/avance-portfolio-codespaces.git"
+  },
+  "author": "coredeiv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreDeiv/avance-portfolio-codespaces/issues"
+  },
+  "homepage": "https://github.com/coreDeiv/avance-portfolio-codespaces#readme"
+}
