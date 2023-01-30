@@ -1,53 +1,12 @@
-
+// Abstracts
+@import "abstracts/variables";
 
 // Base
 @import "base/typograpich";
 @import "base/reset";
 
+// Pages
+@import "pages/home";
+
 // Vendor
 @import "vendor/normalize";
-
-:root {
-    --coredeiv-color-blood: #A3333D;
-}
-
-body {
-    width: 100%;
-    height: auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    flex-direction: column;
-    > * {
-        color: #fff;
-        font-size: 10rem;
-        font-weight: 800;
-    }
-}
-
-.container-jumbotron {
-    width: auto;
-    height: auto;
-}
-
-.row-jumbotron {
-    width: 300px;
-    position: relative;
-    p {
-        line-height: 120px;
-        margin: 0;
-        padding: 0;
-        font-stretch: expanded;
-    }
-}
-
-.letters {
-    &-dot {
-        position: absolute;
-        right: 50px;
-        bottom: 0;
-        color: var(--coredeiv-color-blood);
-    }
-}
