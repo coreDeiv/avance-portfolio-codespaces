@@ -1,0 +1,34 @@
+.container-jumbotron {
+    width: auto;
+    height: auto;
+}
+
+.row-jumbotron {
+    width: 300px;
+    position: relative;
+    p {
+        line-height: 120px;
+        margin: 0;
+        padding: 0;
+        font-stretch: expanded;
+    }
+}
+
+.letters {
+    &-dot {
+        position: absolute;
+        right: 50px;
+        bottom: 0;
+        color: var(--coredeiv-color-blood);
+    }
+}
+
+section#hero-jumbotron {
+    position: relative;
+    img {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        opacity: .5;
+    }
+}
