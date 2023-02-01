@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/coreDeiv/avance-portfolio-codespaces/issues"
   },
-  "homepage": "https://github.com/coreDeiv/avance-portfolio-codespaces#readme"
+  "homepage": "https://github.com/coreDeiv/avance-portfolio-codespaces#readme",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  }
 }

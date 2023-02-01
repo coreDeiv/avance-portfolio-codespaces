@@ -1,1 +1,8 @@
-console.log("123 probando")
+import LocomotiveScroll from '../node_modules/locomotive-scroll';
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true
+});
+
+alert("Hola Mundo")
