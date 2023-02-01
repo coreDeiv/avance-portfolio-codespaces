@@ -24,6 +24,7 @@
 }
 
 section#hero-jumbotron {
+    pointer-events: none;
     position: relative;
     img {
         position: absolute;
@@ -31,4 +32,9 @@ section#hero-jumbotron {
         height: 100%;
         opacity: .5;
     }
+}
+
+.dot-animation {
+    animation: infinite 3s dotBouncer;
+    transition: cubic-bezier(.18,.89,.32,1.28);
 }

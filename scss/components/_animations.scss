@@ -1,0 +1,29 @@
+@keyframes dotBouncer {
+    0% {
+        right: 50px;
+    }
+    10% {
+        right: 0px;
+    }
+    20% {
+        right: 50px;
+    }
+    30% {
+        right: 10px;
+    }
+    40% {
+        right: 50px;
+    }
+    50% {
+        right: 30px;
+    }
+    60% {
+        right: 50px;
+    }
+    70% {
+        right: 45px;
+    }
+    100% {
+        right: 50px;
+    }
+}
